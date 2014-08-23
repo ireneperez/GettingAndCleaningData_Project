@@ -1,17 +1,16 @@
-================================================================================================================================
-README
-======
-### Created by Irene Perez
-================================================================================================================================
+
+### README
+###### Created by Irene Perez
+
 
 This Document is to explain the process created for the project in Getting And Cleaning Data course from Coursera.
 
-The project is into file run_analysis.R attached to this repository.
+The process for the project is into file run_analysis.R attached to this repository.
 
 
 ===============
 run_analysis.R
-===============
+
 
 this R script does the following:
 
