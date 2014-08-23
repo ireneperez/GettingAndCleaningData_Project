@@ -98,11 +98,32 @@ finaltidydata[ order(finaltidydata$activity, finaltidydata$subject), ]
 
 s<- split(finaltidydata,list(finaltidydata$activity, finaltidydata$subject))
 
-#x<-sapply(s, function(x) colMeans(x[, columns_mean_std]))
-
 x<-sapply(s, function(x) colMeans(x[, names(data_mean_sd)]))
+
+##############################################################################
+# traspose the matrix
+##############################################################################
 
 trasp <- t(x)
 
-write.table(trasp, file="test.txt",row.names=T, col.names=T) 
+##############################################################################
+# creating the new columns with Activity and Subject
+##############################################################################
 
+n <- names(trasp[,1])
+
+o <- strsplit(n,"\\.")
+
+firstElement <- function(x){x[1]}
+Activity <- sapply(o,firstElement)
+
+secondElement <- function(x){x[2]}
+Subject <- sapply(o,secondElement)
+
+TidyData <- cbind(Activity, Subject,trasp)
+
+##############################################################################
+# creating the new columns with Activity and Subject
+##############################################################################
+
+write.table(TidyData, file="TidyData.txt",row.names=F, col.names=T) 
