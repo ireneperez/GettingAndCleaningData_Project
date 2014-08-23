@@ -8,8 +8,8 @@ This Document is to explain the process created for the project in Getting And C
 The process for the project is into file run_analysis.R attached to this repository.
 
 
-===============
-run_analysis.R
+
+### run_analysis.R
 
 
 this R script does the following:
@@ -26,7 +26,7 @@ this R script does the following:
 
 
 
-### Detailed description of the above points:
+#### Detailed description of the above points:
 
 
 0 -> Read ALL data
