@@ -1,6 +1,5 @@
 ================================================================================================================================
-README 
-Created by Irene Perez
+README  Created by Irene Perez
 ================================================================================================================================
 
 This Document is to explain the process created for the project in Getting And Cleaning Data course from Coursera.
@@ -27,21 +26,21 @@ this R script does the following:
 
 
 Detailed description of the above points:
-
+==========================================
 
 0 -> Read ALL data
 
-Before performing any process this scrip reads the files listed below 
-from ~/datasciencecoursera/CleanData/Project/UCI HAR Dataset
+    Before performing any process this scrip reads the files listed below 
+    from ~/datasciencecoursera/CleanData/Project/UCI HAR Dataset
 
-activity_labels.txt
-features.txt
-/test/subject_test.txt
-/test/X_test.txt
-/test/y_test.txt
-/train/subject_test.txt
-/train/X_test.txt
-/train/y_test.txt
+          activity_labels.txt
+          features.txt
+          /test/subject_test.txt
+          /test/X_test.txt
+          /test/y_test.txt
+          /train/subject_test.txt
+          /train/X_test.txt
+          /train/y_test.txt
 
 
 1 -> Merges the training and the test sets to create one data set
