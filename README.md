@@ -1,5 +1,7 @@
 ================================================================================================================================
-README  Created by Irene Perez
+README
+======
+### Created by Irene Perez
 ================================================================================================================================
 
 This Document is to explain the process created for the project in Getting And Cleaning Data course from Coursera.
@@ -25,8 +27,8 @@ this R script does the following:
 
 
 
-Detailed description of the above points:
-==========================================
+### Detailed description of the above points:
+
 
 0 -> Read ALL data
 
